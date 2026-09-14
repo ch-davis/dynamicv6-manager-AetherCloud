@@ -1,6 +1,7 @@
 # DynamicV6 Manager
 
 `dynamicv6-manager.sh` 是一个专为 Linux 环境打造的 **AetherCloud DynamicV6 动态 IPv6 管理与路由守护脚本**。
+## ai 写的，也不知道怎么样，有问题我也不会修
 
 它可以帮助你非常方便地在服务器上进行交互式的 IPv6 下发、网关切换，并通过强大的路由策略（Source 地址路由 + Metric 优先级）和后台守护进程，确保你的服务器永远不会因为 IPv6 下发失败或租约到期而“失联”。
 
