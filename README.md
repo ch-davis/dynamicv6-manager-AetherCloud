@@ -19,9 +19,16 @@
 - 任何现代 Linux 发行版（带有 `bash` 和 `iproute2`）。
 - **必须以 `root` 权限执行。**
 
-### 2. 赋予执行权限
+### 2. 下载与准备
+如果你的服务器上还没有此脚本，可以使用以下命令下载并赋予权限：
 ```bash
+wget -O dynamicv6-manager.sh https://raw.githubusercontent.com/ch-davis/dynamicv6-manager-AetherCloud/refs/heads/main/dynamicv6-manager.sh
 chmod +x dynamicv6-manager.sh
+```
+
+*(如果你只是一次性调试，不想在硬盘中保存文件，也可以使用一键内存执行：)*
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/ch-davis/dynamicv6-manager-AetherCloud/refs/heads/main/dynamicv6-manager.sh)
 ```
 
 ### 3. 交互式运行 (推荐)
